@@ -2907,7 +2907,7 @@ a:active {
   position: absolute;
   transform: translateY(50%);
   z-index: 2;
-  padding: 40px;
+  padding: 20px;
   box-shadow: 0 0 70px rgba(0, 0, 0, 0.08);
   transition: all 0.5s ease-in-out;
 }
@@ -2930,7 +2930,7 @@ a:active {
 }
 @media screen and (max-width: 1199px) {
   .portfolio-style01 .portfolio-content {
-    padding: 30px;
+    padding: 10px;
   }
 }
 .portfolio-style02 .portfolio-box:before {
