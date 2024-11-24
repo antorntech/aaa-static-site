@@ -3776,7 +3776,21 @@ pre[class*="language-"] {
 }
 .team-style01 .image {
   position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  height: 300px;
 }
+
+.team-style01 .image div {
+  width: 100%;
+  height: 100%;
+}
+
+.team-style01 .image img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .team-style01:hover .image::after {
   opacity: 1;
   transition: all 0.3s ease;
